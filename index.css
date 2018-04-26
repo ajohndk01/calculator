@@ -1,0 +1,72 @@
+.wrapper {
+
+	max-width: 600px;
+	width: auto;
+	margin: 0 auto;
+}
+.hh {
+	text-align: center;
+
+}
+
+#hh	{
+
+	background-color: #52f8ab;
+	text-align: center;
+	font-size: 2em;
+	border: 1px solid #52f8ab;
+	width: 100px;
+	height: 100px;
+	float: left; 
+	clear: both;	
+
+}
+
+#mm	{
+
+	background-color: #3399ff;
+	text-align: center;
+	font-size: 2em;
+	border: 1px solid #3399ff;
+	width: 100px;
+	height: 100px;
+	float: left;
+	clear: right;
+
+
+}
+
+#ss	{
+	background-color: #16ba78;
+	text-align: center;
+	font-size: 2em;
+	border: 1px solid #16ba78;
+	width: 100px;
+	height: 100px;
+	float: left;
+
+
+}
+
+#ss {
+
+	background-color: #16ba78;
+	animation-name: color;
+	animation-duration: 3s;
+	animation-delay: 3.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color {
+
+	0% { background-color: #16ba78; }
+	25% { background-color: yellow; }
+	50% { background-color: blue; }
+	100% { background-color: green; }
+
+
+
+}
+
+
+
